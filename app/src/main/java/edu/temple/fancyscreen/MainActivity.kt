@@ -18,28 +18,28 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<ImageView>(R.id.profile_photo).setImageResource(R.drawable.istockphoto)
 
-        findViewById<TextView>(R.id.name).setText("Michelle Townsend")
+        findViewById<TextView>(R.id.name).setText(R.string.name_value)
 
         with(findViewById<TextView>(R.id.email)) {
-            text = "mt@ourcompany.com"
+            setText(R.string.email_value)
             setTextColor(Color.BLUE)
         }
 
-        findViewById<TextView>(R.id.extension).text = "2253"
+        findViewById<TextView>(R.id.extension).setText(R.string.extension_value)
 
-        findViewById<TextView>(R.id.department).text = "Design"
+        findViewById<TextView>(R.id.department).setText(R.string.department_value)
 
-        findViewById<TextView>(R.id.supervisor).text = "Gail Davers"
+        findViewById<TextView>(R.id.supervisor).setText(R.string.supervisor_value)
 
         with (findViewById<RecyclerView>(R.id.directReportsRecyclerView)) {
             adapter = RecyclerViewAdapter(
                 arrayOf(
-                    "Kate Sacloff",
-                    "Andrew Klein",
-                    "Maria Ortega",
-                    "Brent Stevenson",
-                    "Daniel Cho",
-                    "Jorge Gomez"
+                    getString(R.string.staff_1),
+                    getString(R.string.staff_2),
+                    getString(R.string.staff_3),
+                    getString(R.string.staff_4),
+                    getString(R.string.staff_5),
+                    getString(R.string.staff_6)
                 )
             )
             layoutManager = LinearLayoutManager(this@MainActivity)
