@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ÉcranÉlégant</string>
+
+    <string name= "name_value"> Michelle Townsend</string>
+    <string name="email_label">Courriel</string>
+    <string name="email_value">mt@ourcompany.com</string>
+    <string name="extension_lable">Extension</string>
+    <string name="extension_value">2253</string>
+    <string name="department_label">Département</string>
+    <string name="department_value">Conception</string>
+    <string name="supervisor_label">Superviseur</string>
+    <string name="supervisor_value">Gail Davers</string>
+    <string name="direct_reports_label">Subordonnés directs</string>
+
+
+    <string name="staff_1">Kate Sacloff</string>
+    <string name="staff_2">Andrew Klein</string>
+    <string name="staff_3">Maria Ortega</string>
+    <string name="staff_4">Brent Stevenson</string>
+    <string name="staff_5">Daniel Cho</string>
+    <string name="staff_6">Jorge Gomez</string>
+</resources>
